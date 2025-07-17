@@ -5,11 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build",
     "test": "vitest",
     "test:ui": "vitest --ui",
     "check": "eslint src --ext jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "start": "vite preview"
   },
   "pre-commit": "check",
   "dependencies": {
